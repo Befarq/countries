@@ -1,0 +1,23 @@
+.loader {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+}
+
+#loading {
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}

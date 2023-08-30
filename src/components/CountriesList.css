@@ -1,0 +1,29 @@
+.countryCard {
+    width: 264px;
+    height: 336px;
+    margin: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.cardText {
+    padding: 20px;
+}
+
+.darkMode .countryCard {
+    color: #fff;
+}
+
+.countryCard img {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.countriesList {
+    margin: 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
